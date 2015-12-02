@@ -182,7 +182,7 @@ handleDiffs([
 return;
 */
 
-setInterval(runRequest, 10*60*1000);
+setInterval(runRequest, config.pollInterval*1000);
 //setInterval(runRequest, 5*1000);
 
 runRequest();

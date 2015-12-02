@@ -8,6 +8,7 @@ module.exports = {
   daysInFuture: 7,
   fromPlaces: ['OSL', 'RYG'],
   toPlaces: ['Europa%3BSpania','Europa%3BSpania%3BCosta+del+Sol+og+Andalucia','Europa%3BSpania%3BTenerife','Europa%3BSpania%3BGran+Canaria','Europa%3BKypros','Asia%3BDe+Forente+Arabiske+Emirater','Asia%3BThailand','Afrika%3BEgypt','Afrika%3BMarokko','Afrika%3BKapp+Verde','Amerika%3BUSA'],
+  pollInterval: 600, // seconds
   pushover: {
     userToken: 'YOUR USER TOKEN FROM PUSHOVER',
     apiToken: 'YOUR API TOKEN FROM PUSHOVER'
